@@ -40,6 +40,9 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+    public static String realUtorid() {
+        return printLabMessage("gday", "lach f", true, "why");
+    }
 
     /**
      * An example method that calls on printLabMessage.

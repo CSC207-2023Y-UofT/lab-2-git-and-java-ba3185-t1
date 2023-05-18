@@ -30,6 +30,10 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+
+    public void testMethod() {
+        String expected = "Yo! My name is Kevin Quinn! " +  "I like dogs more than cats! CSC207 is a lot of fun!";
+        String actual = IntroLab.quinnKev();
     @Test(timeout = 10)
     public void testRealUtorid() {
         String expected = "gday! My name is lach f! " +

@@ -52,6 +52,10 @@ public class IntroLab {
         return printLabMessage("Yo", "Kevin Quinn", false, "CSC207 is a lot of fun!");
     }
 
+    public static String jj() {
+        return printLabMessage("Hello", "JJ han", true, "Hello World!");
+    }
+
     public static String exampleStudent() {
         return printLabMessage("Hello", "Stu Dent", true,
                 "Welcome to CSC207!");
@@ -69,6 +73,7 @@ public class IntroLab {
          */
 
          System.out.println(quinnKev());
+         System.out.println(jj());
     }
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.

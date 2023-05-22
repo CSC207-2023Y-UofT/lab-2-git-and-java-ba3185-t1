@@ -56,6 +56,10 @@ public class IntroLab {
         return printLabMessage("Hello", "JJ han", true, "Hello World!");
     }
 
+    public static String jj2() {
+        return printLabMessage("Hello", "JJ han", false, "Hello World!");
+    }
+
     public static String exampleStudent() {
         return printLabMessage("Hello", "Stu Dent", true,
                 "Welcome to CSC207!");

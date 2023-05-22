@@ -51,4 +51,11 @@ public class IntroLabTest {
         String actual = IntroLab.jj();
         assertEquals(expected, actual);
     }
+
+    @Test(timeout = 10)
+    public void testJJ2() {
+        String expected = "Hello! My name is JJ han! I like dogs more than cats! Hello World!";
+        String actual = IntroLab.jj2();
+        assertEquals(expected, actual);
+    }
 }
